@@ -1,0 +1,161 @@
+.content-box {
+    margin-top: 20px;
+    min-height: 236px;
+    padding: 10px;
+}
+.content-forms-field {
+    float: left;
+    margin-bottom: 5px;
+    min-height: 48px;
+    width: 50%;
+}
+
+.content-forms-field select {
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    color: #797979;
+    font-size: 15px;
+    padding: 5px;
+    width: 63%;
+}
+.content-forms-field input {
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    color: #797979;
+    font-size: 15px;
+    padding: 5px;
+    width: 65%;
+}
+.div-border{
+    border: 1px solid #ddd;
+    padding: 0 !important;
+    border-radius:10px 10px 0 0; 
+}
+@media (max-width: 767px) {
+ 
+.content-forms-field label{
+	width: 100% !important; 
+	float: none !important;
+}
+.input63 {
+    width: 93% !important;
+}
+.form-control{width: 100% !important;}
+.content-forms-field {
+    float: none;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.content-forms-field label { float:none;  width: 100%;}
+.content-forms-field input { width:96%;}
+.content-forms-field textarea { width:90%; }
+.content-forms-field select { width:93%; }
+.div-border{
+    width:100% !important;
+}
+
+}
+.content-forms-field label.error {
+    color: #ff0000;
+    display: block;
+    float: right;
+    font-size: 12px;
+    text-align: left;
+    width: 68% !important;
+}
+.content-forms-field label {
+    color: #333333;
+    display: block;
+    float: left;
+    font-size: 13px;
+    width: 32%;
+}
+.error {
+    color: red;
+}
+*:after, *:before {
+    box-sizing: border-box;
+}
+.error-message {
+    color: #ff0000;
+    float: left;
+    line-height: 1;
+    margin-bottom: 4px;
+    margin-left: 1px;
+    width: 100%;
+}
+
+.edit100{ width: 100% !important; }
+
+/** table **/
+
+/*
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(1):before { content: "First Name"; }
+	td:nth-of-type(2):before { content: "Last Name"; }
+	td:nth-of-type(3):before { content: "Job Title"; }
+	td:nth-of-type(4):before { content: "Favorite Color"; }
+	td:nth-of-type(5):before { content: "Wars of Trek?"; }
+	td:nth-of-type(6):before { content: "Porn Name"; }
+	td:nth-of-type(7):before { content: "Date of Birth"; }
+	td:nth-of-type(8):before { content: "Dream Vacation City"; }
+	td:nth-of-type(9):before { content: "GPA"; }
+	td:nth-of-type(10):before { content: "Arbitrary Data"; }
+}
+
+*/
+@media (max-width: 992px) {
+	.content-forms-field{
+		width: 100%;
+	}	
+}
